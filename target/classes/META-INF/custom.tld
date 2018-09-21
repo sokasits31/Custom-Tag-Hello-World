@@ -14,4 +14,25 @@
         <!-- body content is used to pass values to your tag code -->
         <body-content>empty</body-content>
     </tag>
+
+    <tag>
+        <!-- name defines the tag that will be used in jsps to call your tage code -->
+        <name>CountDown</name>
+        <!-- tag class is th fully qualifed class containing the doTag()
+             method tha tshoudl run when <Hello> is used -->
+        <tag-class>com.stevesokasits.customtags.CountDownTag</tag-class>
+        <!-- body content is used to pass values to your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <!-- name defines the tag that will be used in jsps to call your tage code -->
+        <name>Greeting</name>
+        <!-- tag class is th fully qualifed class containing the doTag()
+             method tha tshoudl run when <Hello> is used -->
+        <tag-class>com.stevesokasits.customtags.GreetingTag</tag-class>
+        <!-- body content is used to pass values to your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+
 </taglib>
