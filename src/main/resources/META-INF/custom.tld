@@ -1,0 +1,17 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Tab Lib Demo</short-name>
+    <!-- uri can be whatever you choose. it does not have to point to a real url
+         the uri will be used  in the jsps that use the tab lib -->
+    <uri>http://stevesokasits.com/tags</uri>
+    <tag>
+        <!-- name defines the tag that will be used in jsps to call your tage code -->
+        <name>Hello</name>
+        <!-- tag class is th fully qualifed class containing the doTag()
+             method tha tshoudl run when <Hello> is used -->
+        <tag-class>com.stevesokasits.customtags.HelloWorldTag</tag-class>
+        <!-- body content is used to pass values to your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
