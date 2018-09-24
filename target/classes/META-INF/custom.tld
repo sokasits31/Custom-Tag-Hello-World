@@ -35,4 +35,14 @@
         <body-content>empty</body-content>
     </tag>
 
+    <tag>
+        <!-- name defines the tag that will be used in jsps to call your tage code -->
+        <name>Birthday</name>
+        <!-- tag class is th fully qualifed class containing the doTag()
+             method tha tshoudl run when <Hello> is used -->
+        <tag-class>com.stevesokasits.customtags.BirthdayTag</tag-class>
+        <!-- body content is used to pass values to your tag code -->
+        <body-content>empty</body-content>
+    </tag>
+
 </taglib>
